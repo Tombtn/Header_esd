@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    height: 20vh;
+    background-color: rgb(209, 238, 255);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.header{
+    height: 80vh;
+    background-image: url("img/montagne.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-left: 5%;
+
+}
+
+span{
+    font-size: 90px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.474);
+
+}
+
+ul{
+    list-style-type: none;
+    margin-right: 5%;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+li{
+    float: left;
+}
+
+@media only screen and (max-width: 720px) {
+
+.menu{
+    display: none;
+}
+}
